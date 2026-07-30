@@ -1,0 +1,14 @@
+{
+  "name": "zpay-endpoint-hardening",
+  "version": "1.0.0",
+  "description": "Hardened POST /v1/payments endpoint - error contract, idempotency, rate limiting, versioning",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
